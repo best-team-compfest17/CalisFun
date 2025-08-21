@@ -72,10 +72,10 @@ CalisFun bridges **education and technology**, making foundational learning both
 <kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/node_js.png" height="60" /></kbd>
 <kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/express.png" height="60" /></kbd>
 <kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/mongodb.png" height="60" /></kbd>
-<kbd><img src="./Images/tech/jwt.png" height="60" /></kbd>
-<kbd><img src="./Images/tech/multer.png" height="60" /></kbd>
-<kbd><img src="./Images/tech/vercel.png" height="60" /></kbd>
-<kbd><img src="./Images/tech/azure.png" height="60" /></kbd>
+<kbd><img src="./images/tech/jwt.png" height="60" /></kbd>
+<kbd><img src="./images/tech/multer.png" height="60" /></kbd>
+<kbd><img src="./images/tech/vercel.png" height="60" /></kbd>
+<kbd><img src="./images/tech/azure.png" height="60" /></kbd>
 
 </div>
 
@@ -94,7 +94,7 @@ CalisFun bridges **education and technology**, making foundational learning both
 <kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/vite.png" height="60" /></kbd>
 <kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png" height="60" /></kbd>
 <kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/shadcn_ui.png" height="60" /></kbd>
-<kbd><img src="./Images/tech/vitest.png" height="60" /></kbd>
+<kbd><img src="./images/tech/vitest.png" height="60" /></kbd>
 
 </div>
 
