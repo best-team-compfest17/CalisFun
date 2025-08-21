@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Fungsi: Inisialisasi submodule
+# Fungsi: Inisialisasi submodules
 function init() {
   echo "🔧 Initializing submodules..."
   git submodule update --init --recursive
@@ -12,43 +12,54 @@ function update() {
   git submodule foreach git pull origin main
 }
 
-# Fungsi: Jalankan frontend
-function frontend() {
-  echo "🚀 Starting frontend..."
-  cd frontend || exit
+# --- FRONTEND WEB ---
+function frontend_web() {
+  echo "🌐 Starting Frontend Web..."
+  cd frontend-web || exit
   npm install
   npm run dev
   cd ..
 }
 
-# Fungsi: Jalankan backend
+# --- FRONTEND MOBILE (Flutter) ---
+function frontend_mobile() {
+  echo "📱 Starting Frontend Mobile (Flutter)..."
+  cd frontend-mobile || exit
+  flutter pub get
+  flutter run
+  cd ..
+}
+
+# --- BACKEND ---
 function backend() {
-  echo "🚀 Starting backend..."
+  echo "🖥️ Starting Backend..."
   cd backend || exit
   npm install
   npm run dev
   cd ..
 }
 
-# Fungsi: Jalankan AI server
+# --- AI SERVER ---
 function ai() {
-  echo "🧠 Starting AI server..."
+  echo "🧠 Starting AI Server..."
   cd ai || exit
   python -m venv venv
-  source venv/bin/activate  # untuk bash/linux/mac
+  # source venv/bin/activate  # untuk Linux/Mac
+  source venv/Scripts/activate  # kalau Windows PowerShell/GitBash
   pip install -r requirements.txt
-  python main.py
+  python app.py
   cd ..
 }
 
-# Fungsi: Jalankan semua dev server
+# Jalankan semua service
 function dev() {
-  frontend &
+  frontend_web &
+  frontend_mobile &
   backend &
   ai
 }
 
-# Routing berdasarkan argumen
+# Routing argumen
 case "$1" in
   init)
     init
@@ -59,8 +70,11 @@ case "$1" in
   dev)
     dev
     ;;
-  frontend)
-    frontend
+  frontend-web)
+    frontend_web
+    ;;
+  frontend-mobile)
+    frontend_mobile
     ;;
   backend)
     backend
@@ -70,6 +84,6 @@ case "$1" in
     ;;
   *)
     echo "❌ Unknown command: $1"
-    echo "Usage: ./dev.sh [init|update|dev|frontend|backend|ai]"
+    echo "Usage: ./scripts/dev.sh [init|update|dev|frontend-web|frontend-mobile|backend|ai]"
     ;;
 esac
