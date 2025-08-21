@@ -32,7 +32,7 @@ CalisFun bridges **education and technology**, making foundational learning both
 ---
 
 ## 📃 Table of Contents
-- [📝 More Documentation](#-more-documentation)
+- [📝 CalisFun Repository Documentation](#-calisfun-repository-documentation)
 - [⚙️ Technology Stack](#-technology-stack)
 - [🧩 Core Features](#-core-features)
 - [🚀 Live App Demo](#-live-app-demo)
@@ -42,7 +42,7 @@ CalisFun bridges **education and technology**, making foundational learning both
 
 ---
 
-## 📝 More Documentation
+## 📝 CalisFun Repository Documentation
 
 > [!TIP]
 > 
