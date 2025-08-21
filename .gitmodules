@@ -1,0 +1,12 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/best-team-compfest17/CalisFun-Backend.git
+[submodule "frontend-web"]
+	path = frontend-web
+	url = https://github.com/best-team-compfest17/CalisFun-Web.git
+[submodule "frontend-mobile"]
+	path = frontend-mobile
+	url = https://github.com/best-team-compfest17/CalisFun-Mobile.git
+[submodule "ai"]
+	path = ai
+	url = https://github.com/best-team-compfest17/CalisFun-AI.git
