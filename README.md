@@ -192,7 +192,7 @@ CalisFun bridges **education and technology**, making foundational learning both
 ### Frontend - Mobile Download
 (please go to the Mobile Repository to download the app)
 
-👉 [https://github.com/best-team-compfest17/CalisFun-Mobile](https://github.com/best-team-compfest17/CalisFun-Mobile)
+👉 [Google Drive - CalisFun Mobile Application](https://drive.google.com/drive/folders/1LYj5Aue0JOMmDMeRlu_nA0L04DEDNKlH?usp=sharing)
 
 ### Frontend - Website
 
