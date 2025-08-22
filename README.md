@@ -65,11 +65,13 @@ CalisFun bridges **education and technology**, making foundational learning both
 
 ---
 
-## 📚 Pitch Deck (Canva)
+## 📚 More Documenation
 
 <ul>
     <li><b>Pitch Deck (Canva)</b></li>
     <a href="https://www.canva.com/design/DAGwNK5Gu4Q/gxKCQl_HwVlo95zU_y5Alg/edit?utm_content=DAGwNK5Gu4Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Pitch Deck - Canva</a>
+    <li><b>CalisFun Application Demo Video</b></li>
+    <a href="https://drive.google.com/drive/folders/1ALn_nx5Z93iAY5lw-pnxnP40bCWzajjn?usp=sharing">CalisFun Application Demo Video</a>
 </ul>
 
 ---
