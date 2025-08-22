@@ -33,10 +33,12 @@ CalisFun bridges **education and technology**, making foundational learning both
 
 ## 📃 Table of Contents
 - [📝 CalisFun Repository Documentation](#-calisfun-repository-documentation)
+- [📈 Pitch Deck](#-pitch-deck)
 - [⚙️ Technology Stack](#-technology-stack)
 - [🧩 Core Features](#-core-features)
 - [🚀 Live App Demo](#-live-app-demo)
 - [🧰 Getting Started Locally](#-getting-started-locally)
+- [🚀 Diagram](#-diagram)
 - [👥 Owner](#-owner)
 - [📬 Contact](#-contact)
 
@@ -63,7 +65,30 @@ CalisFun bridges **education and technology**, making foundational learning both
 
 ---
 
+## 📚 Pitch Deck (Canva)
+
+<ul>
+    <li><b>Pitch Deck (Canva)</b></li>
+    <a href="https://www.canva.com/design/DAGwNK5Gu4Q/gxKCQl_HwVlo95zU_y5Alg/edit?utm_content=DAGwNK5Gu4Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Pitch Deck - Canva</a>
+</ul>
+
+---
+
 ## ⚙️ Technology Stack
+
+### Frontend Mobile - Technology Stack
+
+<div align="center">
+<kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/flutter.png" height="60" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/dart.png" height="60" /></kbd>
+<kbd><img width="60" height="60" alt="image" src="https://github.com/user-attachments/assets/c8f92fa3-6e71-40c2-8b8d-3301c6c1f996" /></kbd>
+<kbd><img width="60" height="60" alt="image" src="https://github.com/user-attachments/assets/a1d7fbb5-a3f7-415d-8d69-3625e930f38e" /></kbd>
+
+</div>
+
+<div align="center">
+<h4>Flutter | Dart | Dio | Riverpod</h4>
+</div>
 
 ### Backend - Technology Stack
 
@@ -102,6 +127,26 @@ CalisFun bridges **education and technology**, making foundational learning both
 <h4>React | TypeScript | Vite | TailwindCSS | ShadcnUI | Vitest</h4>
 </div>
 
+
+### AI - Technology Stack
+
+
+<div align="center">
+
+<kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" height="60" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/flask.png" height="60" /></kbd>
+<kbd><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="60" /></kbd>
+<kbd><img src="./Images/tech/azure.png" height="60" /></kbd>
+<kbd><img src="./images/tech/openai.png" height="60" /></kbd>
+<kbd><img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/docker.png" height="60" /></kbd>
+
+</div>
+
+<div align="center">
+<h4>Python | Flask | Hugging Face | Microsoft Azure | OpenAI | Docker</h4>
+</div>
+
+
 ---
 
 
@@ -114,7 +159,7 @@ CalisFun bridges **education and technology**, making foundational learning both
 
 ### 🔡 Spelling Game
 - Audio-assisted spelling learn.
-- Adaptive difficulty ensures progressive learning.  
+- Progressive level to help children learn more about how to spell correctly. 
 
 ### 🔢 Counting Challenges
 - Interactive counting mini-games.  
@@ -134,7 +179,7 @@ CalisFun bridges **education and technology**, making foundational learning both
 - **Admin Dashboard** for managing questions, content, and user accounts.  
 
 ### 🧠 AI-Powered Tools
-- **AI Chatbot (Azure OpenAI)** → Friendly assistant for Q&A, learning support, or help navigating the app.  
+- **AI Chatbot (Azure OpenAI)** → Friendly assistant for Q&A, learning support, or help navigating the app.
 
 
 ---
@@ -143,14 +188,15 @@ CalisFun bridges **education and technology**, making foundational learning both
 ## 🚀 Live App Demo
 
 ### Frontend - Mobile Download
+(please go to the Mobile Repository to download the app)
 
-👉 [https://calis-fun.vercel.app/](https://calis-fun.vercel.app/)
+👉 [https://github.com/best-team-compfest17/CalisFun-Mobile](https://github.com/best-team-compfest17/CalisFun-Mobile)
 
 ### Frontend - Website
 
 👉 [https://calis-fun.vercel.app/](https://calis-fun.vercel.app/)
 
-### Backend
+### Backend - Deployed API
 
 👉 [https://calis-fun-backend.vercel.app/](https://calis-fun-backend.vercel.app/)
 
@@ -164,7 +210,9 @@ General
 - **Git**
 
 Frontend - Mobile
-- **Node.js** (v16+)
+- **Dart**
+- **Flutter SDK**
+- **Android Studio** (optional)
 
 Frontend - Website
 - **Node.js** (v16+)
@@ -194,7 +242,7 @@ cd CalisFun
 ./scripts/setup.sh # Pull from the origin repository (get update changes)
 
 ./scripts/dev.sh frontend-web # to run the website
-./scripts/dev.sh frontend-mobile # to run the mobile
+./scripts/dev.sh frontend-mobile # to run the mobile (for now please just use the documentation in CalisFun-Mobile Repository)
 ./scripts/dev.sh backend # to run the backend
 ./scripts/dev.sh ai # to run the ai
 ./scripts/dev.sh dev # run all services
@@ -205,7 +253,7 @@ make init          # init submodules
 make update        # update all submodules
 make dev           # run all services
 make frontend-web  # to run the website
-make frontend-mobile # to run the mobile
+make frontend-mobile # to run the mobile (for now please just use the documentation in CalisFun-Mobile Repository)
 make backend # to run the backend
 make ai # to run the ai
 
@@ -215,7 +263,21 @@ make ai # to run the ai
 
 ## 🧭 Diagram
 
-*Overall Database System Flow:*
+*Architecture Diagram of CalisFun*
+<p align="center">
+  <img src="./images/architecture-diagram.png" width="700">
+</p>
+
+This is how our application built on and connect cross services.
+
+*Use Case Diagram of CalisFun*
+<p align="center">
+  <img src="./images/use-case.png" width="700">
+</p>
+
+This is all use case that can be done in CalisFun started for user, parent, and admin role.
+
+*Overall Database System Flow (ERD Diagram):*
 <p align="center">
   <img src="./images/diagram.png" width="700">
 </p>
